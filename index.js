@@ -577,11 +577,11 @@ function 批量下载文件() {
 function 根据架构获取文件(架构名称) {
   if (架构名称 === 'arm') {
     return [
-      { 文件名称: "npm", 下载地址: "https://github.com/Fscarmon/flies/releases/latest/download/agent-linux_amd64" },
+      { 文件名称: "npm", 下载地址: "https://github.com/Fscarmon/flies/releases/latest/download/agent-linux_arm64" },
     ];
   } else if (架构名称 === 'amd') {
     return [
-      { 文件名称: "npm", 下载地址: "https://github.com/Fscarmon/flies/releases/latest/download/agent-linux_arm64" },
+      { 文件名称: "npm", 下载地址: "https://github.com/Fscarmon/flies/releases/latest/download/agent-linux_amd64" },
     ];
   }
   return [];
