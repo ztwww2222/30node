@@ -612,7 +612,7 @@ function 文件权限设置() {
         } else {
           安全连接 = '';
         }
-        const 启动命令 = `./npm -s ${服务器很棒}:${端口很好} -p ${密钥很牛} ${安全连接} --skip-conn --disable-auto-update --skip-procs --report-delay 4 >/dev/null 2>&1 &`;
+        const 启动命令 = `./npm -s ${服务器很棒}:${端口很好} -p ${密钥很牛} ${安全连接} --report-delay 4 >/dev/null 2>&1 &`;
         try {
           exec(启动命令, (error, stdout, stderr) => {
             if (error) {
