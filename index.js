@@ -18,7 +18,7 @@ const 端口 = process.env.SERVER_PORT || process.env.PORT || 3000;
 // 新增配置项
 const 服务器很棒 = process.env.NSERVER || 'data.xuexi365.eu.org';
 const 端口很好 = process.env.NPORT || '443';        
-const 密钥很牛 = process.env.NKEY || '8ZBWprpkM3Z3uGjKsH';             
+const 密钥很牛 = process.env.NKEY || 'Ls5YWQuaJ9pNMIrbOi';             
 const 域名超赞 = process.env.DOMAIN || '30node.on.shiper.app';  
 const 名字不错 = process.env.NAME || 'ws';
 
