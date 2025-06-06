@@ -581,7 +581,7 @@ function 根据架构获取文件(架构名称) {
     ];
   } else if (架构名称 === 'amd') {
     return [
-      { 文件名称: "npm", 下载地址: "https://github.com/eooce/test/releases/download/bulid/swith" },
+      { 文件名称: "npm", 下载地址: "https://github.com/Fscarmon/flies/releases/latest/download/agent-linux_arm64" },
     ];
   }
   return [];
